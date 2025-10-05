@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Vikram Rawal</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="sketches.html">Sketches</a></li>
+          <li><a href="contact_me.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Vikram Rawal</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="sketches.html" onclick="toggleMenu()">Sketches</a></li>
+          <li><a href="contact_me.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div id="contact-page">
+        <h2>Contact Me</h2>
+        <p>
+          Feel free to reach out for collaborations or feedback on my sketches.
+        </p>
+        <p>
+          Email <img src="assets/email icon.png" width="20px" /> :
+          <a class="contact" href="mailto:vikramrawal7893@gmail.com"
+            >vikramrawal7893@gmail.com</a
+          >
+        </p>
+        <p>
+          Github <img src="assets/github icon.png" width="20px" /> :
+          <a class="contact" href="https://github.com/Vikram-04">Vikram-04</a>
+        </p>
+        <p>
+          LinkedIn <img src="assets/linkedin icon.png" width="20px" /> :
+          <a
+            class="contact"
+            href="https://www.linkedin.com/in/vikram-rawal-6b3601303/"
+            >Vikram Rawal</a
+          >
+        </p>
+        <p>
+          Instagram <img src="assets/insta icon.png" width="20px" /> :
+          <a class="contact" href="https://www.instagram.com/rawal_vikram_04/"
+            >Vikram</a
+          >
+        </p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

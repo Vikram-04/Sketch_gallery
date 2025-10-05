@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Vikram Rawal</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="sketches.html">Sketches</a></li>
+          <li><a href="contact_me.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Vikram Rawal</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="sketches.html" onclick="toggleMenu()">Sketches</a></li>
+          <li><a href="contact_me.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="profile-pic">
+        <img src="assets/profile1.png" />
+      </div>
+      <div class="profile-text">
+        <p class="p1">Hello, I'm</p>
+        <h1 class="name">Vikram Rawal</h1>
+        <p class="p2">Welcome to my Gallery</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/vikram-rawal-6b3601303/"
+            ><img src="assets/icons8-linkedin-30.png"
+          /></a>
+          <a href="https://github.com/Vikram-04"
+            ><img src="assets/icons8-github-30.png"
+          /></a>
+          <a href="https://www.instagram.com/rawal_vikram_04/"
+            ><img src="assets/icons8-instagram-30.png" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="home-sketch">
+      <blockquote class="quote">
+        "Art washes away from the soul the dust of everyday life."
+        <cite>-Pablo Picasso</cite>
+      </blockquote>
+      <p class="heading">A peek into my Gallery</p>
+      <div class="sketches-preview">
+        <img
+          class="preview-img"
+          src="assets/sketch1.jpg"
+          width="500px"
+          height="700px"
+        />
+        <img
+          class="preview-img"
+          src="assets/sketch3.jpg"
+          width="500px"
+          height="700px"
+        />
+      </div>
+      <div>
+        <a class="nav-sketches" href="sketches.html">See more Sketches</a>
+      </div>
+      <div class="invi">Lorem epsum</div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
