@@ -45,4 +45,4 @@ This is a lightweight, static **Sketch Gallery Website** built using **HTML, CSS
 
 ---
 
-### Live Demo : https://vikram-04.github.io/Sketch_gallery/sketches.html
+#### Live Demo : https://vikram-04.github.io/Sketch_gallery/
